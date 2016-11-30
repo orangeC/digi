@@ -1,2 +1,2 @@
 # digi
-	index.html
+	运行  npm run dev
