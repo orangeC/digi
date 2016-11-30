@@ -6,6 +6,8 @@ class ContentTwo extends Component{
 	render(){
 		let styles={
 			root2:{
+				padding:"40px 10px",
+				textAlign:"center",
 				width:"100%",
 				borderTop:"1px solid rgba(0, 0, 0, 0.0980392)",
 				float:"left",
@@ -34,9 +36,8 @@ class ContentTwo extends Component{
 				margin:"0 auto"
 			},
 			pp:{
-				textAlign:"center",
 				margin:"15px auto",
-				fontSize:"1.3em"
+				fontSize:"1.2em"
 			},
 			img:{
 				display:"block",
@@ -52,6 +53,7 @@ class ContentTwo extends Component{
 					<div style={styles.short}></div>
 					<div style={styles.pp}>学员平均薪资高出一般工程师</div>
 					<img style={styles.img} src={Bg3} />
+					<a className="search-more"  href="#" >了解更多行业咨询</a>
 				</div>
 			)
 	}

@@ -10,6 +10,15 @@ a{
 ul,li{
 	list-style: none;
 }
+.search-more{
+	font-size: 18px;
+    background-color: #e7210e;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
 @media(min-width: 760px){
 	.card{
 				width:50%;
