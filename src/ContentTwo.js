@@ -1,0 +1,58 @@
+import React,{Component} from "react";
+import Bg3 from "./img2/3.png";
+
+
+class ContentTwo extends Component{
+	render(){
+		let styles={
+			root2:{
+				width:"100%",
+				borderTop:"1px solid rgba(0, 0, 0, 0.9)"
+			},
+			h1:{
+				textAlign:"center",
+				marginBottom:"20px",
+				color:"rgb(231, 33, 14)",
+				fontSize:"36px"
+			},
+			span:{
+				color:"rgb(40,40,40)"
+			},
+			p:{
+				textAlign:"center",
+				color:"rgb(123, 123, 123)",
+				textTransform: "uppercase",
+				fontSize:"0.9em",
+				marginBottom:"10px"
+			},
+			short:{
+				width:"4em",
+				height:"3px",
+				backgroundColor:"red",
+				margin:"0 auto"
+			},
+			pp:{
+				textAlign:"center",
+				margin:"15px auto",
+				fontSize:"1.3em"
+			},
+			img:{
+				display:"block",
+				maxWidth:"960px",
+				width:"90%",
+				margin:"0 auto 20px"
+			}
+		}
+		return (
+				<div style={styles.root2}>
+					<h1 style={styles.h1}>薪资<span style={styles.span}>不断攀升，发展</span>潜力无限</h1>
+					<p style={styles.p}>RISING WAGES AND DEVELOPMENT POTENTIAL</p>
+					<div style={styles.short}></div>
+					<div style={styles.pp}>学员平均薪资高出一般工程师</div>
+					<img style={styles.img} src={Bg3} />
+				</div>
+			)
+	}
+}
+
+export default ContentTwo
