@@ -7,13 +7,14 @@ class ContentOne extends Component{
 		let styles={
 			root1:{
 				width:"100%",
-				marginTop:"30px"
+				float:"left",
+				padding:"30px 10px"
 			},
 			h1:{
 				textAlign:"center",
 				marginBottom:"20px",
 				color:"rgb(231, 33, 14)",
-				fontSize:"36px"
+				fontSize:"2.2em"
 			},
 			span:{
 				color:"rgb(40,40,40)"
@@ -37,29 +38,30 @@ class ContentOne extends Component{
 			clearfix:{
 				width:"100%",
 				maxWidth:"1024px",
-				margin:"20px auto"
+				margin:"10px auto 0"
 			},
 			h2:{
 				color:"#fff",
 				backgroundColor:"#e7210e",
 				textAlign:"center",
 				marginBottom:"15px",
-				lineHeight:"50px",
+				lineHeight:"2",
 				whiteSpace:"nowrap"
 			},
 			pp:{
 				color:"#282828",
-				lineHeight:"28px",
-				fontSize:"0.9em"
+				lineHeight:"1.9em",
+				fontSize:"0.9em",
+				margin:"0 0 15px"
 			},
 			img:{
 				boxShadow:"0 0 10px 3px rgba(0,0,0,0.2)",
 				width:"100%",
-				marginTop:"30px"
+				marginTop:"10px"
 			},
 			card:{
 				float:"left",
-				padding:"15px 30px"
+				padding:"10px 30px"
 			}
 		}
 		return (

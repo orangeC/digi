@@ -12,10 +12,15 @@ ul,li{
 }
 @media(min-width: 760px){
 	.card{
-		width: 50%;
-	}
+				width:50%;
+			}
 	.pp{
 		height: 140px;
+	}
+}
+@media(max-width: 440px){
+	.card{
+		width: 100%;
 	}
 }
 

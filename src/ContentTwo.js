@@ -7,7 +7,9 @@ class ContentTwo extends Component{
 		let styles={
 			root2:{
 				width:"100%",
-				borderTop:"1px solid rgba(0, 0, 0, 0.9)"
+				borderTop:"1px solid rgba(0, 0, 0, 0.0980392)",
+				float:"left",
+				backgroundColor:"rgb(242, 242, 242)"
 			},
 			h1:{
 				textAlign:"center",
