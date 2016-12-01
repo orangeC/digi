@@ -1,8 +1,8 @@
 import React,{Component} from "react";
-import Bg from "./img/2.jpg";
-import Bg3 from "./img/3.jpg";
-import Bg4 from "./img/4.jpg";
-import Bg5 from "./img/1.jpg";
+import Bg from "../img/2.jpg";
+import Bg3 from "../img/3.jpg";
+import Bg4 from "../img/4.jpg";
+import Bg5 from "../img/1.jpg";
 
 class Slide extends Component{
 	constructor(){

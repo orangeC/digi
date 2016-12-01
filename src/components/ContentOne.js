@@ -1,6 +1,6 @@
 import React,{Component} from "react";
-import Bg2 from "./img2/2.jpg";
-import Bg from "./img2/1.jpg";
+import Bg2 from "../img2/2.jpg";
+import Bg from "../img2/1.jpg";
 
 class ContentOne extends Component{
 	render(){

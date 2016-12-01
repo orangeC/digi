@@ -1,10 +1,10 @@
 import React,{Component} from "react";
-import Header from "./Header";
-import Nav from "./Nav";
-import Slide from "./slide.js";
-import ContentOne from "./ContentOne";
-import ContentTwo from "./ContentTwo";
-import ContentThree from "./ContentThree";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Slide from "./components/slide.js";
+import ContentOne from "./components/ContentOne";
+import ContentTwo from "./components/ContentTwo";
+import ContentThree from "./components/ContentThree";
 
 class App extends Component{
 	render(){

@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import Bg3 from "./img2/3.png";
+import Bg3 from "../img2/3.png";
 
 
 class ContentTwo extends Component{
