@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Slide from "./slide.js";
 import ContentOne from "./ContentOne";
 import ContentTwo from "./ContentTwo";
+import ContentThree from "./ContentThree";
 
 class App extends Component{
 	render(){
@@ -14,6 +15,7 @@ class App extends Component{
 					<Slide />
 					<ContentOne />
 					<ContentTwo />
+					<ContentThree />
 				</div>
 			)
 	}
