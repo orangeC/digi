@@ -19,6 +19,26 @@ ul,li{
     cursor: pointer;
     text-decoration: none;
 }
+.one{
+	background-color: rgb(37, 99, 41);
+}
+.two{
+	background-color: rgb(255, 162, 0);
+}
+.three{
+	background-color: rgb(126, 123, 184);
+}
+.ContentFour img{
+	width: 100%;
+	display: block;
+	vertical-align: middle;
+}
+.ContentFour p{
+	white-space: nowrap;
+    color: #282828;
+    font-size: 0.9em; 
+    margin-bottom: 5px;
+}
 @media(min-width: 760px){
 	.card{
 				width:50%;
@@ -29,6 +49,9 @@ ul,li{
 }
 @media(max-width: 440px){
 	.card{
+		width: 100%;
+	}
+	.four-card{
 		width: 100%;
 	}
 }
