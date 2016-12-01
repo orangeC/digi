@@ -37,7 +37,7 @@ class ContentThree extends Component{
 			img:{
 				display:"block",
 				maxWidth:"830px",
-				width:"80%",
+				width:"85%",
 				margin:"0 auto 20px"
 			}
 		}
