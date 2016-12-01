@@ -33,7 +33,7 @@ class ContentOne extends Component{
 				width:"4em",
 				height:"3px",
 				backgroundColor:"red",
-				margin:"0 auto"
+				margin:"10px auto 25px"
 			},
 			clearfix:{
 				width:"100%",
