@@ -39,6 +39,10 @@ ul,li{
     font-size: 0.9em; 
     margin-bottom: 5px;
 }
+.four-card{
+	width:32%;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+}
 @media(min-width: 760px){
 	.card{
 				width:50%;
@@ -46,6 +50,7 @@ ul,li{
 	.pp{
 		height: 140px;
 	}
+
 }
 @media(max-width: 440px){
 	.card{
@@ -53,6 +58,7 @@ ul,li{
 	}
 	.four-card{
 		width: 100%;
+		margin-bottom: 10px;
 	}
 }
 

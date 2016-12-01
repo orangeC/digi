@@ -20,7 +20,11 @@ class ContentFour extends Component{
 				margin:"0 auto",
 				padding:"20px",
 				display:"flex",
+				flexDirection:"row",
 				flexWrap:"wrap",
+				boxPack: "justify",
+				boxDirection: "normal",
+				boxOrient: "horizontal",
 				justifyContent:"space-between"
 			},
 			h1:{
@@ -55,10 +59,6 @@ class ContentFour extends Component{
 			img:{
 				marginTop:"5px",
 				border:"0"
-			},
-			card:{
-				width:"32%",
-				boxShadow: "0 0 10px 1px rgba(0,0,0,.2)"
 			}
 		}
 		return (
