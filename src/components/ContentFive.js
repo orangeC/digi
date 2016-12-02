@@ -46,6 +46,9 @@ class ContentFive extends Component{
 				flexDirection:"row",
 				flexWrap:"wrap",
 				justifyContent:"space-around"
+			},
+			h3:{
+				padding:"5px 0"
 			}
 		}
 		return (
@@ -65,27 +68,27 @@ class ContentFive extends Component{
 						<div style={styles.card} className="step-card">
 							<div>
 								<img src={Bg2} />
-								<h3>林喜军</h3>
-								<p>Frank  北京第嘉传媒创始人，全国最大的CG培训基地火星时代原互动媒体系创始人之一，曾任职于OgilvyOne、电通、华洋联众等4A广告公司，还曾任职于新东方、北京八维教育集团等大型教育培训机构，有着多年的专业广告公司从业经历、10余年的教育培训经验，尤其对大学市场有着丰富的教学与营销经验。</p>
+								<h3 style={styles.h3} >林喜军</h3>
+								<p><strong>Frank</strong>  北京第嘉传媒创始人，全国最大的CG培训基地火星时代原互动媒体系创始人之一，曾任职于OgilvyOne、电通、华洋联众等4A广告公司，还曾任职于新东方、北京八维教育集团等大型教育培训机构，有着多年的专业广告公司从业经历、10余年的教育培训经验，尤其对大学市场有着丰富的教学与营销经验。</p>
 							</div>
 							<div>
 								<img src={Bg3} />
-								<h3>刘 健</h3>
-								<p>Jason  曾就职于北京创世奇迹Wonderad全国创意总监，并在OgilvyOne、麦肯光明、电通广告、AGENDA、等国际4A广告公司工作过，有多年创意方面的专业技能，而且在客户服务有丰富的经验。曾经服务过游戏客户：完美世界,网易游戏,盛大,搜狐畅游等。品牌客户IBM, Moto, DHL, LG, Airbus, WWF, JEEP, Siemens, Honda Acura众多国内外客户。</p>
+								<h3 style={styles.h3} >刘 健</h3>
+								<p><strong>Jason</strong>  曾就职于北京创世奇迹Wonderad全国创意总监，并在OgilvyOne、麦肯光明、电通广告、AGENDA、等国际4A广告公司工作过，有多年创意方面的专业技能，而且在客户服务有丰富的经验。曾经服务过游戏客户：完美世界,网易游戏,盛大,搜狐畅游等。品牌客户IBM, Moto, DHL, LG, Airbus, WWF, JEEP, Siemens, Honda Acura众多国内外客户。</p>
 							</div>
 							<div>
 								<img src={Bg4} />
-								<h3>陈 硕</h3>
+								<h3 style={styles.h3} >陈 硕</h3>
 								<p>现任金棕榈广告副总经理/创意总监，15年的广告行业从业经验，非常优秀的客户把控能力及项目开发能力。曾在多家4A及local广告公司任职负责创意策划工作，并对多家4A广告公司项目进行指导并协助完成。</p>
 							</div>
 							<div>
 								<img src={Bg5} />
-								<h3>杨 永</h3>
+								<h3 style={styles.h3} >杨 永</h3>
 								<p>现就职于北京铭硕知识产权代理有限公司。研发中心前端工程师总监，负责管理沈阳分公司前端开发工作。擅长网页重构，人机交互设计，网页构架设计，CSS框架建设，安卓apk，苹果APP应用开发。</p>
 							</div>
 							<div>
 								<img src={Bg6} />
-								<h3>Peter</h3>
+								<h3 style={styles.h3} >Peter</h3>
 								<p>好多视频网站创始人，慕课网在线视频的主讲，疯狂的在线教育爱好者，十多年业界经验的骨灰级专家，曾在清华大学举办过沙龙，倡导推广前端技术，在github上有2k的粉丝。</p>
 							</div>
 						</div>
