@@ -36,7 +36,7 @@ ul,li{
 .ContentFour p{
 	white-space: nowrap;
     color: #282828;
-    font-size: 0.9em; 
+    font-size: 0.85em; 
     margin-bottom: 5px;
 }
 .four-card{
@@ -59,6 +59,12 @@ ul,li{
 	.four-card{
 		width: 100%;
 		margin-bottom: 10px;
+	}
+}
+@media(max-width: 960px){
+	.ContentFour p{
+		white-space: normal;
+		font-size: 0.8em; 
 	}
 }
 
