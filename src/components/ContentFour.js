@@ -11,8 +11,7 @@ class ContentFour extends Component{
 		let styles={
 			root:{
 				width:"100%",
-				padding:"30px 10px",
-				float:"left",
+				padding:"50px 10px",
 			},
 			main:{
 				width:"100%",
@@ -50,7 +49,6 @@ class ContentFour extends Component{
     			overflow: "hidden"
 			},
 			h3:{
-				marginTop: "20px",
     			marginBottom: "10px",
     			fontWeight:"300",
     			fontSize:"1.5em",

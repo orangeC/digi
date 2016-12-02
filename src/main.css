@@ -10,6 +10,9 @@ a{
 ul,li{
 	list-style: none;
 }
+.clear{
+	clear: both;
+}
 .search-more{
 	font-size: 18px;
     background-color: #e7210e;
