@@ -6,6 +6,15 @@ import Bg3 from "../img2/14.png";
 import Bg4 from "../img2/15.png";
 import Bg5 from "../img2/16.png";
 import Bg6 from "../img2/17.png";
+import Bg7 from "../img2/18.png";
+import Img from "../img2/3.jpg";
+import Img1 from "../img2/4.jpg";
+import Img2 from "../img2/5.jpg";
+import Img3 from "../img2/6.jpg";
+import Img4 from "../img2/7.jpg";
+import Img5 from "../img2/8.jpg";
+import Img6 from "../img2/9.jpg";
+import Img7 from "../img2/10.jpg";
 
 
 class ContentFive extends Component{
@@ -28,8 +37,7 @@ class ContentFive extends Component{
 			p:{
 				fontWeight: "600",
     			fontSize: "1.1em",
-    			paddingLeft: "5px",
-    			paddingBottom:"10px"
+    			padding:"0 10px 10px"
 			},
 			img:{
 				width:"100%",
@@ -96,7 +104,47 @@ class ContentFive extends Component{
 							<a href="#" className="search-more"  >查看更多师资信息</a>
 						</div>
 					</div>
-					<div style={styles.bottom} ></div>
+					<div style={styles.top} >
+						<img  src={Bg7} style={styles.img} />
+						<p style={styles.p} >企业项目实战教学，学习＝工作，<span style={styles.span}>课程内容根据企业招聘需求更新，毕业即可顺利进入工作状态</span></p>
+						<div className="project-card" style={styles.card} >
+							<div>
+								<img src={Img} />
+								<p>PC网站项目</p>
+							</div>
+							<div>
+								<img src={Img1} />
+								<p>手游项目</p>
+							</div>
+							<div>
+								<img src={Img2} />
+								<p>HTML5项目</p>
+							</div>
+							<div>
+								<img src={Img3} />
+								<p>电商项目</p>
+							</div>
+							<div>
+								<img src={Img4} />
+								<p>APP项目</p>
+							</div>
+							<div>
+								<img src={Img5} />
+								<p>iPad项目</p>
+							</div>
+							<div>
+								<img src={Img6} />
+								<p>WEB游戏项目</p>
+							</div>
+							<div>
+								<img src={Img7} />
+								<p>医疗项目</p>
+							</div>
+						</div>
+						<div style={styles.a}>
+							<a href="#" className="search-more"  >点击申请在线免费试听课程</a>
+						</div>
+					</div>
 				</div>
 			)
 	}
