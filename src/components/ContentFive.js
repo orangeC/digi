@@ -110,35 +110,35 @@ class ContentFive extends Component{
 						<div className="project-card" style={styles.card} >
 							<div>
 								<img src={Img} />
-								<p>PC网站项目</p>
+								<p className="color1">PC网站项目</p>
 							</div>
 							<div>
 								<img src={Img1} />
-								<p>手游项目</p>
+								<p className="color2">手游项目</p>
 							</div>
 							<div>
 								<img src={Img2} />
-								<p>HTML5项目</p>
+								<p className="color3">HTML5项目</p>
 							</div>
 							<div>
 								<img src={Img3} />
-								<p>电商项目</p>
+								<p className="color4">电商项目</p>
 							</div>
 							<div>
 								<img src={Img4} />
-								<p>APP项目</p>
+								<p className="color5">APP项目</p>
 							</div>
 							<div>
 								<img src={Img5} />
-								<p>iPad项目</p>
+								<p className="color6">iPad项目</p>
 							</div>
 							<div>
 								<img src={Img6} />
-								<p>WEB游戏项目</p>
+								<p className="color7">WEB游戏项目</p>
 							</div>
 							<div>
 								<img src={Img7} />
-								<p>医疗项目</p>
+								<p className="color8">医疗项目</p>
 							</div>
 						</div>
 						<div style={styles.a}>

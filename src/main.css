@@ -60,6 +60,44 @@ ul,li{
 	font-size: 0.85em;
 	padding-bottom:10px;
 }
+.project-card>div{
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.project-card p{
+	width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.8;
+}
+.project-card>div>img{
+	vertical-align: middle;
+}
+.project-card .color1{
+	background-color: rgb(0, 168, 255);
+}
+.project-card .color2{
+	background-color: rgb(255, 162, 0);
+}
+.project-card .color3{
+	background-color: rgb(126, 123, 184);
+}
+.project-card .color4{
+	background-color: rgb(37, 99, 41);
+}
+.project-card .color5{
+	background-color: rgb(170, 145, 92);
+}
+.project-card .color6{
+	background-color: rgb(108, 120, 121);
+}
+.project-card .color7{
+	background-color: rgb(93, 174, 178);
+}
+.project-card .color8{
+	background-color: rgb(196, 190, 170);
+}
 @media(max-width: 960px){
 	.ContentFour p{
 		white-space: normal;
