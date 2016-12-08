@@ -17,7 +17,7 @@ class ContentTwo extends Component{
 				textAlign:"center",
 				marginBottom:"20px",
 				color:"rgb(231, 33, 14)",
-				fontSize:"36px"
+				fontSize:"2.1em"
 			},
 			span:{
 				color:"rgb(40,40,40)"

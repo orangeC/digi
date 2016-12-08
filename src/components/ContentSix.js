@@ -1,5 +1,10 @@
 import React,{Component} from "react";
-
+import img1 from "../img2/11.jpg";
+import img2 from "../img2/12.jpg";
+import img3 from "../img2/13.jpg";
+import img4 from "../img2/14.jpg";
+import img5 from "../img2/15.jpg";
+import img6 from "../img2/16.jpg";
 
 class ContentSix extends Component{
 	render(){
@@ -34,17 +39,11 @@ class ContentSix extends Component{
 				textAlign:"center",
 				padding:"50px 0"
 			},
-			card:{
-				display:"flex",
-				flexDirection:"row",
-				flexWrap:"wrap",
-				justifyContent:"space-around"
-			},
 			h1:{
 				textAlign:"center",
 				marginBottom:"10px",
 				color:"rgb(231, 33, 14)",
-				fontSize:"36px"
+				fontSize:"2.1em"
 			}
 		}
 		return (
@@ -54,8 +53,13 @@ class ContentSix extends Component{
 						<p style={styles.p}>ZERO BASE ENTRANCE, 4 MONTHS, WITH TWO YEARS EXPERIENCE IN PROJECT</p>
 						<div style={styles.short}></div>
 					</div>
-					<div>
-						a
+					<div className="works-card">
+						<img src={img1} />
+						<img src={img2} />
+						<img src={img3} />
+						<img src={img4} />
+						<img src={img5} />
+						<img src={img6} />
 					</div>
 					<div style={styles.a}>
 						<a href="#" className="search-more"  >更多学员作品</a>
