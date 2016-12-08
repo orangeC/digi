@@ -14,7 +14,7 @@ module.exports = {
     devtool: 'cheap-module-source-map',
     devServer: {
     stats: { colors: true },
-    port: 3000,
+    port: 8000,
     inline: true,
     hot:true
   },

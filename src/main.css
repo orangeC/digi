@@ -60,7 +60,19 @@ ul,li{
 	font-size: 0.85em;
 	padding-bottom:10px;
 }
+.project-card {
+	padding: 0 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.project-card>div>img{
+	display: block;
+	width: 100%;
+}
 .project-card>div{
+	width: 24%;
 	cursor: pointer;
 	margin-bottom: 10px;
 }
@@ -109,6 +121,9 @@ ul,li{
 		margin-bottom: 10px;
     	width: 32%;
 	}
+	.project-card>div{
+		width: 33%;
+	}
 }
 @media(min-width: 760px){
 	.card{
@@ -117,11 +132,13 @@ ul,li{
 	.pp{
 		height: 140px;
 	}
-
 }
 @media(max-width: 640px){
 	.step-card>div{
     	width: 48%;
+	}
+	.project-card>div{
+		width: 49%;
 	}
 }
 @media(max-width: 440px){
@@ -134,6 +151,9 @@ ul,li{
 	}
 	.step-card>div{
     	width: 90%;
+	}
+	.project-card>div{
+		width: 98%;
 	}
 }
 

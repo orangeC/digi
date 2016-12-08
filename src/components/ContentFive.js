@@ -107,7 +107,7 @@ class ContentFive extends Component{
 					<div style={styles.top} >
 						<img  src={Bg7} style={styles.img} />
 						<p style={styles.p} >企业项目实战教学，学习＝工作，<span style={styles.span}>课程内容根据企业招聘需求更新，毕业即可顺利进入工作状态</span></p>
-						<div className="project-card" style={styles.card} >
+						<div className="project-card" >
 							<div>
 								<img src={Img} />
 								<p className="color1">PC网站项目</p>
