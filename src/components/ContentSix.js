@@ -16,18 +16,19 @@ class ContentSix extends Component{
     			margin: "0px auto",
 			},
 			span:{
-				fontWeight:"400"
+				color:"rgb(40,40,40)"
 			},
 			p:{
-				fontWeight: "600",
-    			fontSize: "1.1em",
-    			padding:"0 10px 10px"
+				color:"rgb(123, 123, 123)",
+				textTransform: "uppercase",
+				fontSize:"0.9em",
+				marginBottom:"10px"
 			},
-			img:{
-				width:"100%",
-				maxWidth:"200px",
-				marginTop: '20px',
-    			marginBottom: '20px'
+			short:{
+				width:"4em",
+				height:"3px",
+				backgroundColor:"red",
+				margin:"10px auto 0"
 			},
 			a:{
 				textAlign:"center",
@@ -39,22 +40,25 @@ class ContentSix extends Component{
 				flexWrap:"wrap",
 				justifyContent:"space-around"
 			},
-			h3:{
-				padding:"5px 0"
+			h1:{
+				textAlign:"center",
+				marginBottom:"10px",
+				color:"rgb(231, 33, 14)",
+				fontSize:"36px"
 			}
 		}
 		return (
 				<div style={styles.root} className="ContentSix">
 					<div>
-						<h1 style={styles.h1}>薪资<span style={styles.span}>不断攀升，发展</span>潜力无限</h1>
-						<p style={styles.p}>RISING WAGES AND DEVELOPMENT POTENTIAL</p>
+						<h1 style={styles.h1}>零基础<span style={styles.span}>入学，</span>4个月<span style={styles.span}>拥有两年项目经验</span></h1>
+						<p style={styles.p}>ZERO BASE ENTRANCE, 4 MONTHS, WITH TWO YEARS EXPERIENCE IN PROJECT</p>
 						<div style={styles.short}></div>
 					</div>
 					<div>
 						a
 					</div>
 					<div style={styles.a}>
-						<a href="#" className="search-more"  >点击申请在线免费试听课程</a>
+						<a href="#" className="search-more"  >更多学员作品</a>
 					</div>
 				</div>
 			)
