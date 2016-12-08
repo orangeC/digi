@@ -31,6 +31,11 @@ class ContentFive extends Component{
     			margin: "0px auto",
     			borderBottom: "1px solid rgb(204, 204, 204)"
 			},
+			center:{
+				width: "100%",
+    			maxWidth: "1024px",
+    			margin: "0px auto"
+			},
 			span:{
 				fontWeight:"400"
 			},
@@ -104,7 +109,7 @@ class ContentFive extends Component{
 							<a href="#" className="search-more"  >查看更多师资信息</a>
 						</div>
 					</div>
-					<div style={styles.top} >
+					<div style={styles.center} >
 						<img  src={Bg7} style={styles.img} />
 						<p style={styles.p} >企业项目实战教学，学习＝工作，<span style={styles.span}>课程内容根据企业招聘需求更新，毕业即可顺利进入工作状态</span></p>
 						<div className="project-card" >
