@@ -12,8 +12,7 @@ class ContentSix extends Component{
 			root:{
 				padding:"30px 20px 10px",
     			backgroundColor: "rgb(255, 255, 255)",
-    			textAlign:"center",
-    			borderBottom: "1px solid rgb(204, 204, 204)"
+    			textAlign:"center"
 			},
 			top:{
 				width: "100%",

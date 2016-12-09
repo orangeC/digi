@@ -8,6 +8,7 @@ import ContentThree from "./components/ContentThree";
 import ContentFour from "./components/ContentFour";
 import ContentFive from "./components/ContentFive";
 import ContentSix from "./components/ContentSix";
+import ContentSeven from "./components/ContentSeven";
 
 class App extends Component{
 	render(){
@@ -23,6 +24,7 @@ class App extends Component{
 					<ContentFour />
 					<ContentFive />
 					<ContentSix />
+					<ContentSeven />
 				</div>
 			)
 	}
