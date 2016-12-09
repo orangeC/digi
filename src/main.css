@@ -13,6 +13,32 @@ a{
 ul,li{
 	list-style: none;
 }
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th{
+	white-space: nowrap;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table>tbody>tr>td{
+	white-space: nowrap;
+	font-size: 0.9em;
+	padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
 .clear{
 	clear: both;
 }
@@ -126,6 +152,17 @@ ul,li{
 	height: auto;
 	box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
 	margin-bottom: 10px; 
+}
+.table{
+	width: 100%;
+    margin-bottom: 20px;
+	background-color: transparent;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
 }
 @media(max-width: 960px){
 	.ContentFour p{
