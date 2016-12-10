@@ -58,9 +58,16 @@ class ContentEight extends Component{
 			center:{
 				width:"100%",
 				maxWidth:"1090px",
-				padding:"10px 0",
+				padding:"20px 0",
 				borderTop:"1px solid rgb(204, 204, 204)",
 				margin:"0 auto"
+			},
+			card:{
+				display:"flex",
+				flexDirection: "row",
+    			flexWrap: "wrap",
+    			justifyContent: "space-around",
+    			width: "100%"
 			}
 		}
 		return (
@@ -70,7 +77,7 @@ class ContentEight extends Component{
 					<p style={styles.p}>LOOKING FORWARD TO YOUR JOINING</p>
 					<div style={styles.short}></div>
 					<div style={styles.center} >
-						<div className="coo-card" >
+						<div style={styles.card} >
 							<div className="coo-list">
 								<div className="coo-img">
 									<div>
@@ -80,7 +87,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>郝小军</h3>
 								<p>就职： 乐视</p>
-								<p>薪资： 15000/月</p>
+								<p>薪资： <span>15000</span>/月</p>
 								<p>毕业院校： 河北科技师范学院</p>
 							</div>
 							<div className="coo-list">
@@ -92,7 +99,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>戴金明</h3>
 								<p>就职： 北京链家地产</p>
-								<p>薪资： 12000/月</p>
+								<p>薪资： <span>12000</span>/月</p>
 								<p>毕业院校： 河北科技师范学院</p>
 							</div>
 							<div className="coo-list">
@@ -104,7 +111,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>姜 文</h3>
 								<p>就职： 百度</p>
-								<p>薪资： 13000/月</p>
+								<p>薪资： <span>13000</span>/月</p>
 								<p>毕业院校： 东北石油</p>
 							</div>
 							<div className="coo-list">
@@ -116,7 +123,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>孙璐璐</h3>
 								<p>就职： 优酷土豆</p>
-								<p>薪资： 15000/月</p>
+								<p>薪资： <span>15000</span>/月</p>
 								<p>毕业院校： 河北科技师范学院</p>
 							</div>
 							<div className="coo-list">
@@ -128,7 +135,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>余 昊</h3>
 								<p>就职： 网易</p>
-								<p>薪资： 30万元/年</p>
+								<p>薪资： <span>30万元/</span>年</p>
 								<p>毕业院校： 武汉大学</p>
 							</div>
 							<div className="coo-list">
@@ -140,7 +147,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>张军雅</h3>
 								<p>就职： HTC</p>
-								<p>薪资： 15000/月</p>
+								<p>薪资： <span>15000</span>/月</p>
 								<p>毕业院校： 南京艺术师范学院</p>
 							</div>
 							<div className="coo-list">
@@ -152,7 +159,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>王少静</h3>
 								<p>就职： 小米科技</p>
-								<p>薪资： 15000/月</p>
+								<p>薪资： <span>15000</span>/月</p>
 								<p>毕业院校： 河北理工大学</p>
 							</div>
 							<div className="coo-list">
@@ -164,7 +171,7 @@ class ContentEight extends Component{
 								</div>
 								<h3>孔 越</h3>
 								<p>就职： 搜狐sohu</p>
-								<p>薪资： 12000/月</p>
+								<p>薪资： <span>12000</span>/月</p>
 								<p>毕业院校： 沈阳大学</p>
 							</div>
 						</div>
