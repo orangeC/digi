@@ -197,6 +197,90 @@ tbody {
     width: 100%;
     vertical-align: middle;
 }
+.rootTen{
+	overflow: hidden;
+}
+.rootTen :after{
+	display: block;
+	clear: both;
+	content:" ";
+}
+.contentTen :after{
+	display: block;
+	clear: both;
+	content:" ";
+}
+.footer-left{
+	width: 50%;
+	float: left;
+	position: relative;
+    white-space: nowrap;
+}
+.footer-left :after{
+	display: block;
+	clear: both;
+	content:" ";
+}
+.footer-h3{
+	position: relative;
+} 
+.footer-h3>h3{
+	color: #fff;
+    font-size: 1.9em;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.footer-h3 img{
+	position: absolute;
+	vertical-align: middle;
+}
+.footer-left p{
+	width: 100%;
+	margin: 0;
+    color: #ffd203;
+    padding-left: 10px;
+    font-size: 0.9em;
+    line-height: 1.42857143;
+}
+.footer-right {
+	float: left;
+    width: 50%;
+    position: relative;
+}
+.footer-right>input{
+	width:60%;
+   	position: absolute;
+	border: 1px solid rgb(255, 255, 255);
+   	color: rgb(255, 255, 255);
+   	padding: 5px 10px;
+   	left: 125%;
+   	top: -280px;
+   	background-color: rgba(255, 255, 255, 0);
+}
+.footer-right>button{
+	position: absolute;
+    left: 130%;
+    border: none;
+    border-radius: 5px;
+    color: rgb(246, 0, 29);
+    top: -230px;
+    background-color: rgb(255, 255, 255);
+	width: 110px;
+	align-items: flex-start;
+    text-align: center;
+    padding: 1px 6px;
+    overflow: visible;
+    cursor: pointer;
+}
+.footer-right>img{
+	width: 100%;
+	position: absolute;
+	bottom: -20px;
+	left: 99%;
+}
 @media(max-width: 960px){
 	.ContentFour p{
 		white-space: normal;
@@ -236,6 +320,20 @@ tbody {
 	.coo-list{
     	width: 45%;
 	}
+	.footer-left p{
+		width: 100%;
+		max-width: 640px;
+		white-space: pre-line;
+	}
+	.footer-right>input{
+		top: -360px;
+	}
+	.footer-right>button{
+		top: -310px;
+	}
+	.footer-right>img{
+		bottom: 70px;
+	}
 }
 @media(max-width: 440px){
 	.card{
@@ -253,6 +351,38 @@ tbody {
 	}
 	.coo-list{
     	width: 90%;
+	}
+	.rootTen{
+		width: 100%;
+		padding: 0 4px;
+	}
+	.footer-left{
+		width: 100%;
+		position: relative;
+		white-space: pre-line;
+		text-align: center;
+	}
+	.footer-h3>h3{
+		letter-spacing: 1px;
+		white-space: nowrap;
+	}
+	.footer-right{
+		width: 100%;
+		position: static;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.footer-right>input{
+		width: 70%;
+		position: static;
+	}
+	.footer-right>button{
+		margin-top: 20px;
+		position: static;
+	}
+	.footer-right>img{
+		position: static;
+		margin-top: 20px; 
 	}
 }
 
