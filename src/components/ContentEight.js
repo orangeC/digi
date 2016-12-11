@@ -15,6 +15,7 @@ import Img15 from "../img2/34.jpg";
 import Img16 from "../img2/35.jpg";
 import Img17 from "../img2/36.jpg";
 import Img18 from "../img2/37.jpg";
+import Img19 from "../img2/19.png";
 
 class ContentEight extends Component{
 	render(){
@@ -45,10 +46,6 @@ class ContentEight extends Component{
 				backgroundColor:"red",
 				margin:"10px auto 30px"
 			},
-			a:{
-				textAlign:"center",
-				padding:"50px 0"
-			},
 			h1:{
 				textAlign:"center",
 				marginBottom:"10px",
@@ -68,6 +65,18 @@ class ContentEight extends Component{
     			flexWrap: "wrap",
     			justifyContent: "space-around",
     			width: "100%"
+			},
+			a:{
+				textAlign:"center",
+				padding:"20px 0"
+			},
+			img:{
+				display:"block",
+				margin:"0 auto",
+				width:"90%",
+				maxWidth:"460px",
+				position:"relative",
+				top:"-10px"
 			}
 		}
 		return (
@@ -176,7 +185,11 @@ class ContentEight extends Component{
 							</div>
 						</div>
 					</div>
-					
+					<div style={styles.a}>
+						<a href="#" className="search-more"  >查看更多师资信息</a>
+					</div>
+					<h1 style={styles.h1}><span style={styles.span}>他们已经实现了</span>完美蜕变<span style={styles.span}>，月薪万元</span>只需一个电话</h1>
+					<img  src={Img19} style={styles.img} />
 				</div>
 			)
 	}
