@@ -1,8 +1,5 @@
 import React,{Component} from "react";
-import Bg from "../img/2.jpg";
-import Bg3 from "../img/3.jpg";
-import Bg4 from "../img/4.jpg";
-import Bg5 from "../img/1.jpg";
+import Bg from "../img/bg.jpg";
 
 class Slide extends Component{
 	constructor(){
@@ -36,6 +33,7 @@ class Slide extends Component{
 		this.setState({nowshow:x})
 	}
 	pausePlay(){
+		console.log(1)
 		clearInterval(this.autoPlayFlag)
 	}
 	render(){
@@ -89,9 +87,9 @@ class Slide extends Component{
 				<div style={styles.root} onMouseOver={this.pausePlay.bind(this)} onMouseOut={this.goPlay.bind(this)}>
 					<ul style={styles.ul}>
 						<li style={styles.li}><img style={styles.img} src={Bg} /></li>
-						<li style={styles.li}><img style={styles.img} src={Bg3} /></li>
-						<li style={styles.li}><img style={styles.img} src={Bg4} /></li>
-						<li style={styles.li}><img style={styles.img} src={Bg5} /></li>
+						<li style={styles.li}><img style={styles.img} src={Bg} /></li>
+						<li style={styles.li}><img style={styles.img} src={Bg} /></li>
+						<li style={styles.li}><img style={styles.img} src={Bg} /></li>
 					</ul>
 					<span style={styles.left} onClick={this.tick.bind(this,-1)}>&lt;</span>
 					<span style={styles.right} onClick={this.tick.bind(this,1)}>&gt;</span>

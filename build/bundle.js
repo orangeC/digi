@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "28e720535388e61268d4"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0b6b5e2b481fc37be7cc"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/
@@ -715,7 +715,7 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	__webpack_require__(/*! ./main.css */ 254);
+	__webpack_require__(/*! ./main.css */ 251);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -22690,43 +22690,43 @@
 	
 	var _slide2 = _interopRequireDefault(_slide);
 	
-	var _ContentOne = __webpack_require__(/*! ./components/ContentOne */ 190);
+	var _ContentOne = __webpack_require__(/*! ./components/ContentOne */ 187);
 	
 	var _ContentOne2 = _interopRequireDefault(_ContentOne);
 	
-	var _ContentTwo = __webpack_require__(/*! ./components/ContentTwo */ 193);
+	var _ContentTwo = __webpack_require__(/*! ./components/ContentTwo */ 190);
 	
 	var _ContentTwo2 = _interopRequireDefault(_ContentTwo);
 	
-	var _ContentThree = __webpack_require__(/*! ./components/ContentThree */ 195);
+	var _ContentThree = __webpack_require__(/*! ./components/ContentThree */ 192);
 	
 	var _ContentThree2 = _interopRequireDefault(_ContentThree);
 	
-	var _ContentFour = __webpack_require__(/*! ./components/ContentFour */ 197);
+	var _ContentFour = __webpack_require__(/*! ./components/ContentFour */ 194);
 	
 	var _ContentFour2 = _interopRequireDefault(_ContentFour);
 	
-	var _ContentFive = __webpack_require__(/*! ./components/ContentFive */ 204);
+	var _ContentFive = __webpack_require__(/*! ./components/ContentFive */ 201);
 	
 	var _ContentFive2 = _interopRequireDefault(_ContentFive);
 	
-	var _ContentSix = __webpack_require__(/*! ./components/ContentSix */ 221);
+	var _ContentSix = __webpack_require__(/*! ./components/ContentSix */ 218);
 	
 	var _ContentSix2 = _interopRequireDefault(_ContentSix);
 	
-	var _ContentSeven = __webpack_require__(/*! ./components/ContentSeven */ 228);
+	var _ContentSeven = __webpack_require__(/*! ./components/ContentSeven */ 225);
 	
 	var _ContentSeven2 = _interopRequireDefault(_ContentSeven);
 	
-	var _ContentEight = __webpack_require__(/*! ./components/ContentEight */ 229);
+	var _ContentEight = __webpack_require__(/*! ./components/ContentEight */ 226);
 	
 	var _ContentEight2 = _interopRequireDefault(_ContentEight);
 	
-	var _ContentNine = __webpack_require__(/*! ./components/ContentNine */ 247);
+	var _ContentNine = __webpack_require__(/*! ./components/ContentNine */ 244);
 	
 	var _ContentNine2 = _interopRequireDefault(_ContentNine);
 	
-	var _ContentTen = __webpack_require__(/*! ./components/ContentTen */ 248);
+	var _ContentTen = __webpack_require__(/*! ./components/ContentTen */ 245);
 	
 	var _ContentTen2 = _interopRequireDefault(_ContentTen);
 	
@@ -22995,21 +22995,9 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img/2.jpg */ 186);
+	var _bg = __webpack_require__(/*! ../img/bg.jpg */ 186);
 	
-	var _2 = _interopRequireDefault(_);
-	
-	var _3 = __webpack_require__(/*! ../img/3.jpg */ 187);
-	
-	var _4 = _interopRequireDefault(_3);
-	
-	var _5 = __webpack_require__(/*! ../img/4.jpg */ 188);
-	
-	var _6 = _interopRequireDefault(_5);
-	
-	var _7 = __webpack_require__(/*! ../img/1.jpg */ 189);
-	
-	var _8 = _interopRequireDefault(_7);
+	var _bg2 = _interopRequireDefault(_bg);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -23072,6 +23060,7 @@
 		}, {
 			key: "pausePlay",
 			value: function pausePlay() {
+				console.log(1);
 				clearInterval(this.autoPlayFlag);
 			}
 		}, {
@@ -23132,22 +23121,22 @@
 						_react2.default.createElement(
 							"li",
 							{ style: styles.li },
-							_react2.default.createElement("img", { style: styles.img, src: _2.default })
+							_react2.default.createElement("img", { style: styles.img, src: _bg2.default })
 						),
 						_react2.default.createElement(
 							"li",
 							{ style: styles.li },
-							_react2.default.createElement("img", { style: styles.img, src: _4.default })
+							_react2.default.createElement("img", { style: styles.img, src: _bg2.default })
 						),
 						_react2.default.createElement(
 							"li",
 							{ style: styles.li },
-							_react2.default.createElement("img", { style: styles.img, src: _6.default })
+							_react2.default.createElement("img", { style: styles.img, src: _bg2.default })
 						),
 						_react2.default.createElement(
 							"li",
 							{ style: styles.li },
-							_react2.default.createElement("img", { style: styles.img, src: _8.default })
+							_react2.default.createElement("img", { style: styles.img, src: _bg2.default })
 						)
 					),
 					_react2.default.createElement(
@@ -23171,42 +23160,15 @@
 
 /***/ },
 /* 186 */
-/*!***********************!*\
-  !*** ./src/img/2.jpg ***!
-  \***********************/
+/*!************************!*\
+  !*** ./src/img/bg.jpg ***!
+  \************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "b7c28dfb074685e37eb9907cf365e825.jpg";
+	module.exports = __webpack_require__.p + "99f69107e2f5a26ed8916bb384adbd21.jpg";
 
 /***/ },
 /* 187 */
-/*!***********************!*\
-  !*** ./src/img/3.jpg ***!
-  \***********************/
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "b805dbb6ef7e11f827275e227df8ae2b.jpg";
-
-/***/ },
-/* 188 */
-/*!***********************!*\
-  !*** ./src/img/4.jpg ***!
-  \***********************/
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "ec044acb82aed5f05c0d75fa4a968d3d.jpg";
-
-/***/ },
-/* 189 */
-/*!***********************!*\
-  !*** ./src/img/1.jpg ***!
-  \***********************/
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "add02a47fe38855154680f06437d1b92.jpg";
-
-/***/ },
-/* 190 */
 /*!**************************************!*\
   !*** ./src/components/ContentOne.js ***!
   \**************************************/
@@ -23224,11 +23186,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/2.jpg */ 191);
+	var _ = __webpack_require__(/*! ../img2/2.jpg */ 188);
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _3 = __webpack_require__(/*! ../img2/1.jpg */ 192);
+	var _3 = __webpack_require__(/*! ../img2/1.jpg */ 189);
 	
 	var _4 = _interopRequireDefault(_3);
 	
@@ -23382,7 +23344,7 @@
 	exports.default = ContentOne;
 
 /***/ },
-/* 191 */
+/* 188 */
 /*!************************!*\
   !*** ./src/img2/2.jpg ***!
   \************************/
@@ -23391,7 +23353,7 @@
 	module.exports = __webpack_require__.p + "eb4366b6f594e0f291eb1458a51b1894.jpg";
 
 /***/ },
-/* 192 */
+/* 189 */
 /*!************************!*\
   !*** ./src/img2/1.jpg ***!
   \************************/
@@ -23400,7 +23362,7 @@
 	module.exports = __webpack_require__.p + "f59ef466645e18f368c302bbd5537160.jpg";
 
 /***/ },
-/* 193 */
+/* 190 */
 /*!**************************************!*\
   !*** ./src/components/ContentTwo.js ***!
   \**************************************/
@@ -23418,7 +23380,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/3.png */ 194);
+	var _ = __webpack_require__(/*! ../img2/3.png */ 191);
 	
 	var _2 = _interopRequireDefault(_);
 	
@@ -23525,7 +23487,7 @@
 	exports.default = ContentTwo;
 
 /***/ },
-/* 194 */
+/* 191 */
 /*!************************!*\
   !*** ./src/img2/3.png ***!
   \************************/
@@ -23534,7 +23496,7 @@
 	module.exports = __webpack_require__.p + "78c53ee8a60bcf35ad2322bfb93ac339.png";
 
 /***/ },
-/* 195 */
+/* 192 */
 /*!****************************************!*\
   !*** ./src/components/ContentThree.js ***!
   \****************************************/
@@ -23552,7 +23514,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/4.png */ 196);
+	var _ = __webpack_require__(/*! ../img2/4.png */ 193);
 	
 	var _2 = _interopRequireDefault(_);
 	
@@ -23643,7 +23605,7 @@
 	exports.default = ContentThree;
 
 /***/ },
-/* 196 */
+/* 193 */
 /*!************************!*\
   !*** ./src/img2/4.png ***!
   \************************/
@@ -23652,7 +23614,7 @@
 	module.exports = __webpack_require__.p + "3be3da3d016deb3eb59611e5c8dde1e0.png";
 
 /***/ },
-/* 197 */
+/* 194 */
 /*!***************************************!*\
   !*** ./src/components/ContentFour.js ***!
   \***************************************/
@@ -23670,27 +23632,27 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/5.png */ 198);
+	var _ = __webpack_require__(/*! ../img2/5.png */ 195);
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _3 = __webpack_require__(/*! ../img2/6.png */ 199);
+	var _3 = __webpack_require__(/*! ../img2/6.png */ 196);
 	
 	var _4 = _interopRequireDefault(_3);
 	
-	var _5 = __webpack_require__(/*! ../img2/7.png */ 200);
+	var _5 = __webpack_require__(/*! ../img2/7.png */ 197);
 	
 	var _6 = _interopRequireDefault(_5);
 	
-	var _7 = __webpack_require__(/*! ../img2/8.png */ 201);
+	var _7 = __webpack_require__(/*! ../img2/8.png */ 198);
 	
 	var _8 = _interopRequireDefault(_7);
 	
-	var _9 = __webpack_require__(/*! ../img2/9.png */ 202);
+	var _9 = __webpack_require__(/*! ../img2/9.png */ 199);
 	
 	var _10 = _interopRequireDefault(_9);
 	
-	var _11 = __webpack_require__(/*! ../img2/10.png */ 203);
+	var _11 = __webpack_require__(/*! ../img2/10.png */ 200);
 	
 	var _12 = _interopRequireDefault(_11);
 	
@@ -23913,7 +23875,7 @@
 	exports.default = ContentFour;
 
 /***/ },
-/* 198 */
+/* 195 */
 /*!************************!*\
   !*** ./src/img2/5.png ***!
   \************************/
@@ -23922,7 +23884,7 @@
 	module.exports = __webpack_require__.p + "500f129bbde1b9cf207c8621cfe3cf81.png";
 
 /***/ },
-/* 199 */
+/* 196 */
 /*!************************!*\
   !*** ./src/img2/6.png ***!
   \************************/
@@ -23931,7 +23893,7 @@
 	module.exports = __webpack_require__.p + "d0b590ad020c8d14c8bef2f040a9d32e.png";
 
 /***/ },
-/* 200 */
+/* 197 */
 /*!************************!*\
   !*** ./src/img2/7.png ***!
   \************************/
@@ -23940,7 +23902,7 @@
 	module.exports = __webpack_require__.p + "395288a67168d6b85190fbd303de365f.png";
 
 /***/ },
-/* 201 */
+/* 198 */
 /*!************************!*\
   !*** ./src/img2/8.png ***!
   \************************/
@@ -23949,7 +23911,7 @@
 	module.exports = __webpack_require__.p + "4c9c323aae012ad5997cd227ef4bc5e8.png";
 
 /***/ },
-/* 202 */
+/* 199 */
 /*!************************!*\
   !*** ./src/img2/9.png ***!
   \************************/
@@ -23958,7 +23920,7 @@
 	module.exports = __webpack_require__.p + "44e3af866e4d1dcc7d29a8b4cc28ba5e.png";
 
 /***/ },
-/* 203 */
+/* 200 */
 /*!*************************!*\
   !*** ./src/img2/10.png ***!
   \*************************/
@@ -23967,7 +23929,7 @@
 	module.exports = __webpack_require__.p + "c16d43a700195456739c6cf756bd6ae5.png";
 
 /***/ },
-/* 204 */
+/* 201 */
 /*!***************************************!*\
   !*** ./src/components/ContentFive.js ***!
   \***************************************/
@@ -23985,67 +23947,67 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/11.png */ 205);
+	var _ = __webpack_require__(/*! ../img2/11.png */ 202);
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _3 = __webpack_require__(/*! ../img2/12.png */ 206);
+	var _3 = __webpack_require__(/*! ../img2/12.png */ 203);
 	
 	var _4 = _interopRequireDefault(_3);
 	
-	var _5 = __webpack_require__(/*! ../img2/13.png */ 207);
+	var _5 = __webpack_require__(/*! ../img2/13.png */ 204);
 	
 	var _6 = _interopRequireDefault(_5);
 	
-	var _7 = __webpack_require__(/*! ../img2/14.png */ 208);
+	var _7 = __webpack_require__(/*! ../img2/14.png */ 205);
 	
 	var _8 = _interopRequireDefault(_7);
 	
-	var _9 = __webpack_require__(/*! ../img2/15.png */ 209);
+	var _9 = __webpack_require__(/*! ../img2/15.png */ 206);
 	
 	var _10 = _interopRequireDefault(_9);
 	
-	var _11 = __webpack_require__(/*! ../img2/16.png */ 210);
+	var _11 = __webpack_require__(/*! ../img2/16.png */ 207);
 	
 	var _12 = _interopRequireDefault(_11);
 	
-	var _13 = __webpack_require__(/*! ../img2/17.png */ 211);
+	var _13 = __webpack_require__(/*! ../img2/17.png */ 208);
 	
 	var _14 = _interopRequireDefault(_13);
 	
-	var _15 = __webpack_require__(/*! ../img2/18.png */ 212);
+	var _15 = __webpack_require__(/*! ../img2/18.png */ 209);
 	
 	var _16 = _interopRequireDefault(_15);
 	
-	var _17 = __webpack_require__(/*! ../img2/3.jpg */ 213);
+	var _17 = __webpack_require__(/*! ../img2/3.jpg */ 210);
 	
 	var _18 = _interopRequireDefault(_17);
 	
-	var _19 = __webpack_require__(/*! ../img2/4.jpg */ 214);
+	var _19 = __webpack_require__(/*! ../img2/4.jpg */ 211);
 	
 	var _20 = _interopRequireDefault(_19);
 	
-	var _21 = __webpack_require__(/*! ../img2/5.jpg */ 215);
+	var _21 = __webpack_require__(/*! ../img2/5.jpg */ 212);
 	
 	var _22 = _interopRequireDefault(_21);
 	
-	var _23 = __webpack_require__(/*! ../img2/6.jpg */ 216);
+	var _23 = __webpack_require__(/*! ../img2/6.jpg */ 213);
 	
 	var _24 = _interopRequireDefault(_23);
 	
-	var _25 = __webpack_require__(/*! ../img2/7.jpg */ 217);
+	var _25 = __webpack_require__(/*! ../img2/7.jpg */ 214);
 	
 	var _26 = _interopRequireDefault(_25);
 	
-	var _27 = __webpack_require__(/*! ../img2/8.jpg */ 218);
+	var _27 = __webpack_require__(/*! ../img2/8.jpg */ 215);
 	
 	var _28 = _interopRequireDefault(_27);
 	
-	var _29 = __webpack_require__(/*! ../img2/9.jpg */ 219);
+	var _29 = __webpack_require__(/*! ../img2/9.jpg */ 216);
 	
 	var _30 = _interopRequireDefault(_29);
 	
-	var _31 = __webpack_require__(/*! ../img2/10.jpg */ 220);
+	var _31 = __webpack_require__(/*! ../img2/10.jpg */ 217);
 	
 	var _32 = _interopRequireDefault(_31);
 	
@@ -24387,7 +24349,7 @@
 	exports.default = ContentFive;
 
 /***/ },
-/* 205 */
+/* 202 */
 /*!*************************!*\
   !*** ./src/img2/11.png ***!
   \*************************/
@@ -24396,7 +24358,7 @@
 	module.exports = __webpack_require__.p + "11f71a13786f6ee3ac6dbaca39996fb7.png";
 
 /***/ },
-/* 206 */
+/* 203 */
 /*!*************************!*\
   !*** ./src/img2/12.png ***!
   \*************************/
@@ -24405,7 +24367,7 @@
 	module.exports = __webpack_require__.p + "a87cf0c1a6cbec7cbc6edc30b504358c.png";
 
 /***/ },
-/* 207 */
+/* 204 */
 /*!*************************!*\
   !*** ./src/img2/13.png ***!
   \*************************/
@@ -24414,7 +24376,7 @@
 	module.exports = __webpack_require__.p + "ddc75566e05575a66b061c761e1470a1.png";
 
 /***/ },
-/* 208 */
+/* 205 */
 /*!*************************!*\
   !*** ./src/img2/14.png ***!
   \*************************/
@@ -24423,7 +24385,7 @@
 	module.exports = __webpack_require__.p + "d49db7be6fe3d8b3b457aa1ab31030a6.png";
 
 /***/ },
-/* 209 */
+/* 206 */
 /*!*************************!*\
   !*** ./src/img2/15.png ***!
   \*************************/
@@ -24432,7 +24394,7 @@
 	module.exports = __webpack_require__.p + "ab27219edda6ef05cac718e9e014280d.png";
 
 /***/ },
-/* 210 */
+/* 207 */
 /*!*************************!*\
   !*** ./src/img2/16.png ***!
   \*************************/
@@ -24441,7 +24403,7 @@
 	module.exports = __webpack_require__.p + "99a960da61464de89747a07930f7e71c.png";
 
 /***/ },
-/* 211 */
+/* 208 */
 /*!*************************!*\
   !*** ./src/img2/17.png ***!
   \*************************/
@@ -24450,7 +24412,7 @@
 	module.exports = __webpack_require__.p + "12804b633914dbd9da5481de1ad37520.png";
 
 /***/ },
-/* 212 */
+/* 209 */
 /*!*************************!*\
   !*** ./src/img2/18.png ***!
   \*************************/
@@ -24459,7 +24421,7 @@
 	module.exports = __webpack_require__.p + "516dc9fc3387eefe333cc10f3778f3d3.png";
 
 /***/ },
-/* 213 */
+/* 210 */
 /*!************************!*\
   !*** ./src/img2/3.jpg ***!
   \************************/
@@ -24468,7 +24430,7 @@
 	module.exports = __webpack_require__.p + "ed6fee41a1b198c32ec09b9670eb61c6.jpg";
 
 /***/ },
-/* 214 */
+/* 211 */
 /*!************************!*\
   !*** ./src/img2/4.jpg ***!
   \************************/
@@ -24477,7 +24439,7 @@
 	module.exports = __webpack_require__.p + "2b62487ba46f08f4566ec52ff26fd835.jpg";
 
 /***/ },
-/* 215 */
+/* 212 */
 /*!************************!*\
   !*** ./src/img2/5.jpg ***!
   \************************/
@@ -24486,7 +24448,7 @@
 	module.exports = __webpack_require__.p + "3e4375d2338e8a4a072a717350700502.jpg";
 
 /***/ },
-/* 216 */
+/* 213 */
 /*!************************!*\
   !*** ./src/img2/6.jpg ***!
   \************************/
@@ -24495,7 +24457,7 @@
 	module.exports = __webpack_require__.p + "bdc02e99d5f9c3d800be05a0c63b12bc.jpg";
 
 /***/ },
-/* 217 */
+/* 214 */
 /*!************************!*\
   !*** ./src/img2/7.jpg ***!
   \************************/
@@ -24504,7 +24466,7 @@
 	module.exports = __webpack_require__.p + "440e7cb254305a8f2df4c238c6328067.jpg";
 
 /***/ },
-/* 218 */
+/* 215 */
 /*!************************!*\
   !*** ./src/img2/8.jpg ***!
   \************************/
@@ -24513,7 +24475,7 @@
 	module.exports = __webpack_require__.p + "2618a10299e4e57ad68c0f3f5b5b1472.jpg";
 
 /***/ },
-/* 219 */
+/* 216 */
 /*!************************!*\
   !*** ./src/img2/9.jpg ***!
   \************************/
@@ -24522,7 +24484,7 @@
 	module.exports = __webpack_require__.p + "6115666f6f05f658fde201db9ef39a8f.jpg";
 
 /***/ },
-/* 220 */
+/* 217 */
 /*!*************************!*\
   !*** ./src/img2/10.jpg ***!
   \*************************/
@@ -24531,7 +24493,7 @@
 	module.exports = __webpack_require__.p + "ab24caa6bd8d24828e2a0f00966d2e71.jpg";
 
 /***/ },
-/* 221 */
+/* 218 */
 /*!**************************************!*\
   !*** ./src/components/ContentSix.js ***!
   \**************************************/
@@ -24549,27 +24511,27 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/11.jpg */ 222);
+	var _ = __webpack_require__(/*! ../img2/11.jpg */ 219);
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _3 = __webpack_require__(/*! ../img2/12.jpg */ 223);
+	var _3 = __webpack_require__(/*! ../img2/12.jpg */ 220);
 	
 	var _4 = _interopRequireDefault(_3);
 	
-	var _5 = __webpack_require__(/*! ../img2/13.jpg */ 224);
+	var _5 = __webpack_require__(/*! ../img2/13.jpg */ 221);
 	
 	var _6 = _interopRequireDefault(_5);
 	
-	var _7 = __webpack_require__(/*! ../img2/14.jpg */ 225);
+	var _7 = __webpack_require__(/*! ../img2/14.jpg */ 222);
 	
 	var _8 = _interopRequireDefault(_7);
 	
-	var _9 = __webpack_require__(/*! ../img2/15.jpg */ 226);
+	var _9 = __webpack_require__(/*! ../img2/15.jpg */ 223);
 	
 	var _10 = _interopRequireDefault(_9);
 	
-	var _11 = __webpack_require__(/*! ../img2/16.jpg */ 227);
+	var _11 = __webpack_require__(/*! ../img2/16.jpg */ 224);
 	
 	var _12 = _interopRequireDefault(_11);
 	
@@ -24688,7 +24650,7 @@
 	exports.default = ContentSix;
 
 /***/ },
-/* 222 */
+/* 219 */
 /*!*************************!*\
   !*** ./src/img2/11.jpg ***!
   \*************************/
@@ -24697,7 +24659,7 @@
 	module.exports = __webpack_require__.p + "fa9bd06216e09d2e8c62c35a4b485cf1.jpg";
 
 /***/ },
-/* 223 */
+/* 220 */
 /*!*************************!*\
   !*** ./src/img2/12.jpg ***!
   \*************************/
@@ -24706,7 +24668,7 @@
 	module.exports = __webpack_require__.p + "dcdf72e333ceaada2112aea8d7bafaec.jpg";
 
 /***/ },
-/* 224 */
+/* 221 */
 /*!*************************!*\
   !*** ./src/img2/13.jpg ***!
   \*************************/
@@ -24715,7 +24677,7 @@
 	module.exports = __webpack_require__.p + "57609a0f6453987b397f03581366d869.jpg";
 
 /***/ },
-/* 225 */
+/* 222 */
 /*!*************************!*\
   !*** ./src/img2/14.jpg ***!
   \*************************/
@@ -24724,7 +24686,7 @@
 	module.exports = __webpack_require__.p + "7ef64331103904b631b0975e933bf195.jpg";
 
 /***/ },
-/* 226 */
+/* 223 */
 /*!*************************!*\
   !*** ./src/img2/15.jpg ***!
   \*************************/
@@ -24733,7 +24695,7 @@
 	module.exports = __webpack_require__.p + "f6369bd35f6707030a3e6669a2890258.jpg";
 
 /***/ },
-/* 227 */
+/* 224 */
 /*!*************************!*\
   !*** ./src/img2/16.jpg ***!
   \*************************/
@@ -24742,7 +24704,7 @@
 	module.exports = __webpack_require__.p + "da662d1c23d86ccc8ef95a3ed1221901.jpg";
 
 /***/ },
-/* 228 */
+/* 225 */
 /*!****************************************!*\
   !*** ./src/components/ContentSeven.js ***!
   \****************************************/
@@ -24967,7 +24929,7 @@
 	exports.default = ContentSeven;
 
 /***/ },
-/* 229 */
+/* 226 */
 /*!****************************************!*\
   !*** ./src/components/ContentEight.js ***!
   \****************************************/
@@ -24985,71 +24947,71 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/20.jpg */ 230);
+	var _ = __webpack_require__(/*! ../img2/20.jpg */ 227);
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _3 = __webpack_require__(/*! ../img2/21.jpg */ 231);
+	var _3 = __webpack_require__(/*! ../img2/21.jpg */ 228);
 	
 	var _4 = _interopRequireDefault(_3);
 	
-	var _5 = __webpack_require__(/*! ../img2/22.jpg */ 232);
+	var _5 = __webpack_require__(/*! ../img2/22.jpg */ 229);
 	
 	var _6 = _interopRequireDefault(_5);
 	
-	var _7 = __webpack_require__(/*! ../img2/23.jpg */ 233);
+	var _7 = __webpack_require__(/*! ../img2/23.jpg */ 230);
 	
 	var _8 = _interopRequireDefault(_7);
 	
-	var _9 = __webpack_require__(/*! ../img2/24.jpg */ 234);
+	var _9 = __webpack_require__(/*! ../img2/24.jpg */ 231);
 	
 	var _10 = _interopRequireDefault(_9);
 	
-	var _11 = __webpack_require__(/*! ../img2/25.jpg */ 235);
+	var _11 = __webpack_require__(/*! ../img2/25.jpg */ 232);
 	
 	var _12 = _interopRequireDefault(_11);
 	
-	var _13 = __webpack_require__(/*! ../img2/26.jpg */ 236);
+	var _13 = __webpack_require__(/*! ../img2/26.jpg */ 233);
 	
 	var _14 = _interopRequireDefault(_13);
 	
-	var _15 = __webpack_require__(/*! ../img2/27.jpg */ 237);
+	var _15 = __webpack_require__(/*! ../img2/27.jpg */ 234);
 	
 	var _16 = _interopRequireDefault(_15);
 	
-	var _17 = __webpack_require__(/*! ../img2/30.jpg */ 238);
+	var _17 = __webpack_require__(/*! ../img2/30.jpg */ 235);
 	
 	var _18 = _interopRequireDefault(_17);
 	
-	var _19 = __webpack_require__(/*! ../img2/31.jpg */ 239);
+	var _19 = __webpack_require__(/*! ../img2/31.jpg */ 236);
 	
 	var _20 = _interopRequireDefault(_19);
 	
-	var _21 = __webpack_require__(/*! ../img2/32.jpg */ 240);
+	var _21 = __webpack_require__(/*! ../img2/32.jpg */ 237);
 	
 	var _22 = _interopRequireDefault(_21);
 	
-	var _23 = __webpack_require__(/*! ../img2/33.jpg */ 241);
+	var _23 = __webpack_require__(/*! ../img2/33.jpg */ 238);
 	
 	var _24 = _interopRequireDefault(_23);
 	
-	var _25 = __webpack_require__(/*! ../img2/34.jpg */ 242);
+	var _25 = __webpack_require__(/*! ../img2/34.jpg */ 239);
 	
 	var _26 = _interopRequireDefault(_25);
 	
-	var _27 = __webpack_require__(/*! ../img2/35.jpg */ 243);
+	var _27 = __webpack_require__(/*! ../img2/35.jpg */ 240);
 	
 	var _28 = _interopRequireDefault(_27);
 	
-	var _29 = __webpack_require__(/*! ../img2/36.jpg */ 244);
+	var _29 = __webpack_require__(/*! ../img2/36.jpg */ 241);
 	
 	var _30 = _interopRequireDefault(_29);
 	
-	var _31 = __webpack_require__(/*! ../img2/37.jpg */ 245);
+	var _31 = __webpack_require__(/*! ../img2/37.jpg */ 242);
 	
 	var _32 = _interopRequireDefault(_31);
 	
-	var _33 = __webpack_require__(/*! ../img2/19.png */ 246);
+	var _33 = __webpack_require__(/*! ../img2/19.png */ 243);
 	
 	var _34 = _interopRequireDefault(_33);
 	
@@ -25520,7 +25482,7 @@
 	exports.default = ContentEight;
 
 /***/ },
-/* 230 */
+/* 227 */
 /*!*************************!*\
   !*** ./src/img2/20.jpg ***!
   \*************************/
@@ -25529,7 +25491,7 @@
 	module.exports = __webpack_require__.p + "07e4f8bcb787f7d005e3e89c289793f1.jpg";
 
 /***/ },
-/* 231 */
+/* 228 */
 /*!*************************!*\
   !*** ./src/img2/21.jpg ***!
   \*************************/
@@ -25538,7 +25500,7 @@
 	module.exports = __webpack_require__.p + "f0df1f586b0c0078cc247599f4af358f.jpg";
 
 /***/ },
-/* 232 */
+/* 229 */
 /*!*************************!*\
   !*** ./src/img2/22.jpg ***!
   \*************************/
@@ -25547,7 +25509,7 @@
 	module.exports = __webpack_require__.p + "530ed011e10edb2c63c64b655b9cdfa6.jpg";
 
 /***/ },
-/* 233 */
+/* 230 */
 /*!*************************!*\
   !*** ./src/img2/23.jpg ***!
   \*************************/
@@ -25556,7 +25518,7 @@
 	module.exports = __webpack_require__.p + "540e657041d5ddf52c7e7da607e22b63.jpg";
 
 /***/ },
-/* 234 */
+/* 231 */
 /*!*************************!*\
   !*** ./src/img2/24.jpg ***!
   \*************************/
@@ -25565,7 +25527,7 @@
 	module.exports = __webpack_require__.p + "83b8c6f4ab7d91ccacbcb1cd02bff2fa.jpg";
 
 /***/ },
-/* 235 */
+/* 232 */
 /*!*************************!*\
   !*** ./src/img2/25.jpg ***!
   \*************************/
@@ -25574,7 +25536,7 @@
 	module.exports = __webpack_require__.p + "cd0e435f898c47a4eb1b2789d7c8f72f.jpg";
 
 /***/ },
-/* 236 */
+/* 233 */
 /*!*************************!*\
   !*** ./src/img2/26.jpg ***!
   \*************************/
@@ -25583,7 +25545,7 @@
 	module.exports = __webpack_require__.p + "4e4ec1e3ba702740390cb32181341013.jpg";
 
 /***/ },
-/* 237 */
+/* 234 */
 /*!*************************!*\
   !*** ./src/img2/27.jpg ***!
   \*************************/
@@ -25592,7 +25554,7 @@
 	module.exports = __webpack_require__.p + "da18874dd24f2758f11ad75dec829e22.jpg";
 
 /***/ },
-/* 238 */
+/* 235 */
 /*!*************************!*\
   !*** ./src/img2/30.jpg ***!
   \*************************/
@@ -25601,7 +25563,7 @@
 	module.exports = __webpack_require__.p + "323a47a5e7e87bb9ebc66e875dc49d79.jpg";
 
 /***/ },
-/* 239 */
+/* 236 */
 /*!*************************!*\
   !*** ./src/img2/31.jpg ***!
   \*************************/
@@ -25610,7 +25572,7 @@
 	module.exports = __webpack_require__.p + "e4ce8f8ec3febffb0ef4c9f33f13a25e.jpg";
 
 /***/ },
-/* 240 */
+/* 237 */
 /*!*************************!*\
   !*** ./src/img2/32.jpg ***!
   \*************************/
@@ -25619,7 +25581,7 @@
 	module.exports = __webpack_require__.p + "a76ca16135aac000ec71f3b66620025c.jpg";
 
 /***/ },
-/* 241 */
+/* 238 */
 /*!*************************!*\
   !*** ./src/img2/33.jpg ***!
   \*************************/
@@ -25628,7 +25590,7 @@
 	module.exports = __webpack_require__.p + "dce2c68d64777cdc59f18216d5b18f7d.jpg";
 
 /***/ },
-/* 242 */
+/* 239 */
 /*!*************************!*\
   !*** ./src/img2/34.jpg ***!
   \*************************/
@@ -25637,7 +25599,7 @@
 	module.exports = __webpack_require__.p + "b702963e49a5f41fd093b0540d496594.jpg";
 
 /***/ },
-/* 243 */
+/* 240 */
 /*!*************************!*\
   !*** ./src/img2/35.jpg ***!
   \*************************/
@@ -25646,7 +25608,7 @@
 	module.exports = __webpack_require__.p + "71a427eaba10772eba314af316a5818c.jpg";
 
 /***/ },
-/* 244 */
+/* 241 */
 /*!*************************!*\
   !*** ./src/img2/36.jpg ***!
   \*************************/
@@ -25655,7 +25617,7 @@
 	module.exports = __webpack_require__.p + "7716a692b241998b1e6ecca9fc3b1ce2.jpg";
 
 /***/ },
-/* 245 */
+/* 242 */
 /*!*************************!*\
   !*** ./src/img2/37.jpg ***!
   \*************************/
@@ -25664,7 +25626,7 @@
 	module.exports = __webpack_require__.p + "5845f323126cbceefe35932b52ee0583.jpg";
 
 /***/ },
-/* 246 */
+/* 243 */
 /*!*************************!*\
   !*** ./src/img2/19.png ***!
   \*************************/
@@ -25673,7 +25635,7 @@
 	module.exports = __webpack_require__.p + "66f70ab156644feb046415e4425a4a82.png";
 
 /***/ },
-/* 247 */
+/* 244 */
 /*!***************************************!*\
   !*** ./src/components/ContentNine.js ***!
   \***************************************/
@@ -25838,7 +25800,7 @@
 	exports.default = ContentNine;
 
 /***/ },
-/* 248 */
+/* 245 */
 /*!**************************************!*\
   !*** ./src/components/ContentTen.js ***!
   \**************************************/
@@ -25856,23 +25818,23 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ = __webpack_require__(/*! ../img2/20.png */ 249);
+	var _ = __webpack_require__(/*! ../img2/20.png */ 246);
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _3 = __webpack_require__(/*! ../img2/21.png */ 250);
+	var _3 = __webpack_require__(/*! ../img2/21.png */ 247);
 	
 	var _4 = _interopRequireDefault(_3);
 	
-	var _5 = __webpack_require__(/*! ../img2/22.png */ 251);
+	var _5 = __webpack_require__(/*! ../img2/22.png */ 248);
 	
 	var _6 = _interopRequireDefault(_5);
 	
-	var _7 = __webpack_require__(/*! ../img2/23.png */ 252);
+	var _7 = __webpack_require__(/*! ../img2/23.png */ 249);
 	
 	var _8 = _interopRequireDefault(_7);
 	
-	var _9 = __webpack_require__(/*! ../img2/24.png */ 253);
+	var _9 = __webpack_require__(/*! ../img2/24.png */ 250);
 	
 	var _10 = _interopRequireDefault(_9);
 	
@@ -26027,7 +25989,7 @@
 	exports.default = ContentTen;
 
 /***/ },
-/* 249 */
+/* 246 */
 /*!*************************!*\
   !*** ./src/img2/20.png ***!
   \*************************/
@@ -26036,7 +25998,7 @@
 	module.exports = __webpack_require__.p + "4290f4757c629b78f8a29cbe40c50f46.png";
 
 /***/ },
-/* 250 */
+/* 247 */
 /*!*************************!*\
   !*** ./src/img2/21.png ***!
   \*************************/
@@ -26045,7 +26007,7 @@
 	module.exports = __webpack_require__.p + "4290f4757c629b78f8a29cbe40c50f46.png";
 
 /***/ },
-/* 251 */
+/* 248 */
 /*!*************************!*\
   !*** ./src/img2/22.png ***!
   \*************************/
@@ -26054,7 +26016,7 @@
 	module.exports = __webpack_require__.p + "56c2c822901e14f90b455fea9913ec60.png";
 
 /***/ },
-/* 252 */
+/* 249 */
 /*!*************************!*\
   !*** ./src/img2/23.png ***!
   \*************************/
@@ -26063,7 +26025,7 @@
 	module.exports = __webpack_require__.p + "16b7332ba316967cc6350101616cc080.png";
 
 /***/ },
-/* 253 */
+/* 250 */
 /*!*************************!*\
   !*** ./src/img2/24.png ***!
   \*************************/
@@ -26072,7 +26034,7 @@
 	module.exports = __webpack_require__.p + "1410da8095991552f9f19486a6076a78.png";
 
 /***/ },
-/* 254 */
+/* 251 */
 /*!**********************!*\
   !*** ./src/main.css ***!
   \**********************/
@@ -26081,17 +26043,17 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../~/.0.24.0@css-loader!./../~/.3.2.0@autoprefixer-loader!./main.css */ 255);
+	var content = __webpack_require__(/*! !./../~/.0.24.0@css-loader!./../~/.3.2.0@autoprefixer-loader!./main.css */ 252);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(/*! ./../~/.0.13.1@style-loader/addStyles.js */ 257)(content, {});
+	var update = __webpack_require__(/*! ./../~/.0.13.1@style-loader/addStyles.js */ 254)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept(/*! !./../~/.0.24.0@css-loader!./../~/.3.2.0@autoprefixer-loader!./main.css */ 255, function() {
-				var newContent = __webpack_require__(/*! !./../~/.0.24.0@css-loader!./../~/.3.2.0@autoprefixer-loader!./main.css */ 255);
+			module.hot.accept(/*! !./../~/.0.24.0@css-loader!./../~/.3.2.0@autoprefixer-loader!./main.css */ 252, function() {
+				var newContent = __webpack_require__(/*! !./../~/.0.24.0@css-loader!./../~/.3.2.0@autoprefixer-loader!./main.css */ 252);
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -26101,13 +26063,13 @@
 	}
 
 /***/ },
-/* 255 */
+/* 252 */
 /*!****************************************************************************!*\
   !*** ./~/.0.24.0@css-loader!./~/.3.2.0@autoprefixer-loader!./src/main.css ***!
   \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(/*! ./../~/.0.24.0@css-loader/lib/css-base.js */ 256)();
+	exports = module.exports = __webpack_require__(/*! ./../~/.0.24.0@css-loader/lib/css-base.js */ 253)();
 	// imports
 	
 	
@@ -26118,7 +26080,7 @@
 
 
 /***/ },
-/* 256 */
+/* 253 */
 /*!**********************************************!*\
   !*** ./~/.0.24.0@css-loader/lib/css-base.js ***!
   \**********************************************/
@@ -26177,7 +26139,7 @@
 
 
 /***/ },
-/* 257 */
+/* 254 */
 /*!*********************************************!*\
   !*** ./~/.0.13.1@style-loader/addStyles.js ***!
   \*********************************************/
